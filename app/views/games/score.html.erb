@@ -1,0 +1,10 @@
+
+<h3><%= @new %></h3>
+<h3>Your guess was: <%= @score %></h3>
+<%# <h3>Your score is <%= @score_number %>
+<p><%= @result %></p>
+<% if @test %>
+  <p>Your Test Score is: <%= @final %></p>
+<% end %>
+
+<%= link_to "Play again!", new_path %>
